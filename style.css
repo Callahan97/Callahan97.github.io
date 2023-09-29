@@ -1,11 +1,101 @@
 body {
-  background-color : #707B7C;
-  color: #DCDCDC;
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1004/52/desktop-wallpaper-black-water-surface-blvck.jpg);
+  color: #FFFFFF;
   font-family: Arial, American-Typewriter, sans-serif;
-  margin: 15% 15%; }
+  background-size: contain;
+}
 
-.exp-header {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.super-class {
+  align-items: center;
+}
+
+
+.intro-header {
   text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #DCDCDC;
-  border-bottom: 1px solid #DCDCDC; }
+  width: 500px;
+}
+
+
+
+.heading-context {
+  font-family: 'Open Sans', sans-serif;
+  border: 8px ridge Ivory;
+  border-radius: 10px;
+  background-color: gray;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px
+}
+
+
+
+.per-header {
+   border: 8px ridge Ivory;
+   border-radius: 10px;
+   background-color:SlateGray ;
+   padding-top: 30px;
+   padding-bottom: 35px;
+   padding-left: 40px;
+   padding-right: 40px;
+   max-width: 70%;
+   margin-bottom: 30px;
+}
+
+
+.per-header-summary {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.per-header-title {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+
+
+.exp-content {
+  border: 8px ridge Ivory;
+  border-radius: 10px;
+  background-color:SlateGray;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 70%;
+  margin-bottom: 30px;
+}  
+
+.exp-content-title {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}  
+
+
+.educ-content {
+  border: 8px ridge Ivory;
+  border-radius: 10px;
+  background-color:SlateGray ;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 70%
+  }
+
+.educ-content-title {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
